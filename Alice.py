@@ -1,5 +1,7 @@
 import requests
 import re
+import collections
+
 #import BeautifulSoup
 x = requests.get('https://www.cs.cmu.edu/~rgs/alice-I.html')
 #soup = BeautifulSoup(x.text, 'html.parser')
